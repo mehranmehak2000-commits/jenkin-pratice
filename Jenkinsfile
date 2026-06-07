@@ -9,7 +9,7 @@ pipeline {
 }
     stage ('who'){
       steps {
-        sh  "whoiam"
+        sh  "whoami"
       }
     }
   }
